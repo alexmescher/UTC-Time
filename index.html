@@ -1,0 +1,45 @@
+<html>
+<link href="css/styles.css"
+	type="text/css"
+	rel="stylesheet">
+<head>
+<title>UTC Time and Solar Data</title>
+</head>
+<body>
+	<h1>UTC Time and Date:</h1>
+  <h1 id="utc"></h1>
+	<h1 id="notesTitle"></h1>
+	<h1 id="notesHead"></h1>
+	<h1>Local Time and Date:</h1>
+	<h1 id="localTime"></h1>
+	<h1 id="chooseTimeTitle"></h1>
+	<h1 id="chooseTime"></h1>
+<br>
+<center>
+<label for="timeZone">Select a Time Zone:</label>
+<select name="timeZone" id="timeZone">
+	<option value="Select">Choose a Time Zone</option>
+  <option value="EST">EST - Eastern Standard Time (UTC -5)</option>
+  <option value="CST">CST - Central Time (UTC -6)</option>
+  <option value="MST">MST - Mountain Standard Time (UTC -7)</option>
+  <option value="PST">PST - Pacific Standard Time (UTC -8)</option>
+</select>
+<center>
+<br>
+<center>
+<label for="notes">Notes to Display:</label>
+<input name="notes" id="notes" type="text"></input>
+
+<button type="button" id="post">Post</button>
+<button type="button" id="reset">Reset</button>
+<center>
+<br>
+  <center>
+    <a href="http://www.hamqsl.com/solar.html" title="Click to add Solar-Terrestrial Data to your website!"><img src="http://www.hamqsl.com/solar101vhfpic.php"></a>
+	</center>
+	<center>
+<a id="map" href="http://www.hamqsl.com/solar.html" title="Click to add Solar-Terrestrial Data to your website!"><img src="http://www.hamqsl.com/solarmuf.php"></a>
+</center>
+</body>
+<script src="js/script1.js"></script>
+<html>
